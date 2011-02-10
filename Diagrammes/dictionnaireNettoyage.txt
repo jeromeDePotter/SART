@@ -1,0 +1,33 @@
+Dictionnaire Nettoyage 
+
+SYGNAUX
+blocage_tapis = signal envoyé quand on a détécté que le tapis s'est bloqué
+start_nettoyage = signal envoyé quand le nettoyage doit être commencé, c'est quand on appuie le bouton correspondant
+reprendre = signal envoyé quand l'utilisateur appuie sur le bouton Reprendre après un traitement d'erreur
+initialisation = signal envoyé au moment de l'initialisation pour dire au système de se configurer
+fin_nettoyage = signal envoyé quand le fin du nettoyage a été détecté
+stop_timer_nettoyage = signal envoyé afin de dire au timer de nettoyage de s'arrêter
+start_timer_nettoyage = signal envoyé afin de dire au timer de nettoyage de demarrer 
+fin_timing_nettoyage = signal envoyé par le timer de nettoyage quand le temps nécessaire pour le néttoyage s'est écoulé et aucune erreur n'est survenue
+eteindre_LED_en_train_nettoyage = signal envoyé pour éteindre le LED qui correspond à l'action "en train de nettoyer"
+allumer_LED_en_train_nettoyage = signal envoyé pour allumer le LED qui correspond à l'action "en train de nettoyer"
+eteindre_LED_besoin_nettoyage = signal envoyé pour éteindre le LED qui signale que le système a besoin d'être nettoyé
+eteindre_LED_pb_tapis = signal envoyé pour éteindre le LED qui signale qu'il y a un problème avec le tapis
+allumer_LED_pb_tapis = signal envoyé pour allumer le LED qui signale qu'il y a un problème avec le tapis
+demarrer_avant_moteur_tapis = signale envoyé pour demarrer le moteur du tapis dans le sens positif (le sens de déplacement des poubelles)
+deverrouiller_clapet = signal envoyé pour deverrouiller le clapet du système
+verrouiller_clapet = signal envoyé pour verrouiller le clapet du système
+arreter_moteur_tapis = signal envoyé pour arrêter le moteur du tapis
+mettre_valeur_a_zero = signal envoyé pour mettre le compteur du timer de nettoyage à 0
+incrementer = signal envoyé chaque fois quand on veut incrémenter la valeur du compteur du timer de nettoyage
+fin_timer = signal envoyé quand la valeur du compteur du timer de nettoyage arrive à la valeur max acceptée
+stop_timer = signal envoyer au timer de nettoyage pour lui dire de s'arrêter
+
+
+DONNÉES
+tensionLEDEnTrainNettoyer - tension du LED qui correspond à l'action "en train de nettoyer"
+tensionLEDBesoinNettoyage - tension du LED qui signale que le système a besoin d'être nettoyé
+tensionLEDPbTapis - tension du LED qui signale qu'il y a un problème avec le tapis
+tensionMoteurTapis - tension du moteur qui fait tourner le tapis
+tensionVerrouClapet - tension du dispositif de verrouillage du clapet
+
