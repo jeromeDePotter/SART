@@ -1,0 +1,73 @@
+PSPEC des fonctions primitives:
+
+PSPEC allumer_LED_clapet_bac {
+    tension_LED_clapet_bac = 5;
+}
+
+PSPEC eteindre_LED_clapet_bac {
+    tension_LED_clapet_bac = 0;
+}
+
+PSPEC verrouiller_clapet_bac {
+    tension_verrou_clapet = 5;
+}
+
+PSPEC deverrouiller_clapet_bac {
+    tension_verrou_clapet = 0;
+}   
+
+PSPEC lancer_descente_sac {
+    tension_descente_sac = 5;
+}
+
+PSPEC allumer_LED_pb_descente_montee_bac {
+    tension_LED_pb_descente_montee_bac = 5;
+}
+
+PSPEC eteindre_LED_pb_descente_montee_bac {
+    tension_LED_pb_descente_montee_bac = 0;
+}
+
+PSPEC arreter_socle_bac {
+    tension_socle_bac = 0;
+}
+
+PSPEC eteindre_LED_vidage_bac {
+    tension_LED_vidage_bac = 0;
+}
+
+PSPEC arreter_moteur_tapis {
+    tension_moteur_tapis = 0;
+}
+
+PSPEC demarrer_avant_moteur_tapis {
+    tension_moteur_tapis = -5;
+}
+
+PSPEC demarrer_arrier_moteur_tapis {
+    tension_moteur_tapis = 5;
+}
+
+PSPEC lancer_montee_bac {
+    tension_socle_bac = -5;
+}
+
+PSPEC allumer_LED_pb_tapis {
+    tension_LED_pb_tapis = 5;
+}
+
+PSPEC eteindre_LED_pb_tapis {
+    tension_LED_pb_tapis = 0;
+}    
+
+PSPEC ouvrir_pinces_bac {
+    tension_pinces_bac = 5;
+}
+
+PSPEC fermer_pinces_bac {
+    tension_pinces_bac = 0;
+}
+
+PSPEC
+
+
